@@ -1,0 +1,9 @@
+# ローカル設定ファイル
+settings.local.json
+
+# 生成されたデータファイル
+*.json
+*.csv
+
+# Pythonキャッシュ
+__pycache__/
