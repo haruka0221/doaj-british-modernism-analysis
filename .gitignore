@@ -1,9 +1,14 @@
-# ローカル設定ファイル
+# Local settings
 settings.local.json
 
-# 生成されたデータファイル
+# Generated data (share only scripts, not large data)
 *.json
 *.csv
 
-# Pythonキャッシュ
+# Python cache & notebooks
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
